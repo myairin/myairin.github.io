@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 650px) {
+    /* global */ 
+    .tentang, .portfolio, .nilai, .kontak {
+        padding: none;
+    }
+
+    .section-title {
+        font-size: 20px;
+    } 
+    /* HEADER */
+    header {
+        padding: 20px 50px;
+        text-align: center;
+    }
+    header h1 {
+        float: none;
+    }
+    nav {
+        float: none;
+    }
+    nav ul {
+        padding: 0;
+        margin-top: 15px;
+    }
+    
+    /* MAIN */
+    
+    main {
+        margin-top: 112px;
+    }
+    /* SECTION BANNER */
+    .banner {
+        padding: 30px 0;
+    }
+    .banner-content  {
+        padding: 30px;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .banner-content h2 {
+        font-size: 20px;
+    }
+    .banner-content p {
+        font-size: 14px;
+    }
+    .github, .instagram, .whatsapp {
+        width: 40px;
+        height: 40px;
+    }
+    /* TENTANG SAYA */
+    .tentang .wrapper {
+        flex-direction: column;
+    }
+    .kanan, .kiri {
+        width: 100%;
+        padding: 15px;
+    }
+    .kanan p {
+        font-size: 14px;
+    }
+    /* SECTION PORTFOLIO */
+
+    .portofolio .wrapper {
+        flex-direction: column;
+    }
+    .porto-card {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .porto-card img {
+        max-height: 400px;
+        height: 40vh;
+    }
+
+    /* NILAI DAN SERTIFIKAS */
+    .nilai .wrapper {
+        margin-top: 30px;
+    }
+    .nilai-title, .sertifikasi-title {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .table-nilai, .table-sertifikasi {
+        font-size: 12px;
+    }
+
+    /* SECTION KONTAK SAYA */
+    .kontak {
+        min-height: 100vh;
+    } 
+
+    /* button kalkulator */
+
+    .button {
+        padding: 40px 10px;
+    }
+    
+    /* Button Game */
+        button {
+        display: block;
+   }
+   
+}

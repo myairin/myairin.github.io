@@ -1,0 +1,140 @@
+body {
+    font-family: "Avenir Next";
+    background: url(https://images.unsplash.com/photo-1495975832350-f46e82f0ceb6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  }
+  
+
+  /* Header */
+header {
+    padding: 1px 40px 3px 40px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    font-size: 18px;
+}
+
+header h1 {
+    float: left;
+    padding: 0px 7px 2px 27px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation Menu*/
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+  li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+ /* bagian container nya */
+ 
+  .container {
+    height: 151px;
+    margin-top: 100px;
+  }
+  
+  .container {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+.rara {
+    font-size: 50px;
+    padding: 57px 7px 10px 644px;
+  }
+  
+h3 {
+    font-size: 25px;
+    padding: 1px 3px 2px 80px;
+}
+  
+img {
+    padding: 1px 3px 2px 78px;
+    width: 470px;
+}
+
+p {
+    padding: 1px 3px 2px 81px;
+    font-size: 20px;
+    color: white;
+
+}
+  .contentss {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+/* form */
+
+form {
+    height: 55px 6px 6px 93p;
+    color: #fff;
+}
+
+.cinta {
+  margin: -40px 0 0 808px;
+  font-size: 40px;
+}
+
+
+.kontak-box {
+    background: #aaa;
+    width: 350px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
+.ba-kontak {
+    background: rgb(65, 99, 138);
+    color: rgb(8, 8, 8);
+    padding: 9px;
+    cursor: pointer;
+}
+
+  
+  .footer {
+    background: white;
+    color: rgb(7, 7, 7);
+    height: 100px;
+    padding: 30px;
+  }
+  
+  .footer-ml {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 15px;
+  }
+  

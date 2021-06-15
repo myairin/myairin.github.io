@@ -1,0 +1,104 @@
+body {
+    background: rgb(213, 233, 103);
+}
+
+/* Header */
+header {
+    padding: 10px 40px 3px 40px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    font-size: 18px;
+}
+
+header h1 {
+    float: left;
+    font-size: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+/* Navigation Menu*/
+
+nav {
+    float: right;
+    margin: auto;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1, h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+}
+
+.caca {
+    padding: 90px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background: black;
+    color: white;
+    height: 35px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.awan {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: -5px;
+    display: flex;
+}
+
+.awan::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: url(../assets/pixlr-bg-result.png) bottom center no-repeat;
+    background-size: 90%;
+    position: absolute;
+    bottom: -25px;
+}
+
+.naruto {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/gambar-naruto-.png) bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+
+.awan.muncul.muncul .naruto {
+    top: 0;
+}

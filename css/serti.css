@@ -1,0 +1,46 @@
+body {
+    background: rgb(213, 233, 103);
+}
+
+/* Header */
+header {
+    padding: 10px 40px 3px 40px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    font-size: 18px;
+}
+
+header h1 {
+    float: left;
+    font-size: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+/* Navigation Menu*/
+
+nav {
+    float: right;
+    margin: auto;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
